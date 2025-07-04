@@ -18,4 +18,4 @@ Este proyecto es una galería de arte llamada "Homeland", desarrollada como part
 - Estructura de archivos modular y escalable
 
 ## Enlace a GitHub Pages
-[Enlace a la página publicada](https://tu-usuario.github.io/web_project_homeland/)
+[Enlace a la página publicada](https://github.com/David-Saldivar04/web_project_homeland)
