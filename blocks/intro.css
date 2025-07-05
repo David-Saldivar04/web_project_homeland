@@ -1,11 +1,12 @@
 .intro{
+  
   max-width: 984px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: flex-start;
-  margin: 0 auto;
+  margin: 92px auto ;
   text-align: left;
 }
 
@@ -66,7 +67,7 @@
   color: #ffffff;
   margin: 32px 0 auto 0;
 }
-@media (max-width: 768px) {
+@media (max-width: 984px) {
   .intro__title {
       font-size: 2.8rem;
       line-height: 1.2;
