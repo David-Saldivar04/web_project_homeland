@@ -1,5 +1,5 @@
 .lead{
-    margin-top: 91px;
+  margin-top: 91px;
 }
 .lead__title {
 max-width: 720px;
@@ -37,22 +37,22 @@ height: auto;
 
 @media (max-width: 768px) {
 .lead__title {
-  font-size: 4.69rem;
-  line-height: 1.5;
+font-size: 4.69rem;
+line-height: 1.5;
 }
 }
 
 @media (max-width: 320px) {
 .lead__title {
-  font-size: 2.5rem;
-  line-height: 1.2;
+font-size: 2.5rem;
+line-height: 1.2;
 }
 }
 
 @media (max-width: 320px) {
 .lead__subtitle {
-  font-size: 1rem;
-  line-height: 1.25;
+font-size: 1rem;
+line-height: 1.25;
 }
 }
 
