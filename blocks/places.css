@@ -256,3 +256,25 @@
     display: block;
   }
 }
+
+/* Botón principal visible por defecto, móvil oculto */
+.places__button--main {
+  display: block;
+}
+.places__button--mobile {
+  display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .places__button--main {
+    display: none;
+  }
+  .places__button--mobile {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 0;
+    width: 90%;
+    align-self: center;
+    text-align: center;
+  }
+}
