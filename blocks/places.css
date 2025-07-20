@@ -260,7 +260,7 @@
 }
 
 /* Botón principal visible por defecto, móvil oculto */
-.places__button--main {
+.places__button_type_main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -268,32 +268,25 @@
   height: 49px;
   padding: 0 16px;
 }
-.places__button--mobile {
+.places__button_type_mobile {
   display: none;
 }
 
 @media screen and (max-width: 320px) {
-  .places__button--main {
+  .places__button_type_main {
     display: none;
   }
-  .places__button--mobile {
-    display: block;
-    margin-top: 12px;
-    margin-bottom: 0;
-    width: 90%;
-    align-self: center;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .places__button--mobile {
-    font-size: 16px;
+  .places__button_type_mobile {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 49px;
     padding: 0 16px;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 0;
+    width: 90%;
+    align-self: center;
   }
 }
